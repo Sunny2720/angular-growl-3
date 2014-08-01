@@ -1,31 +1,35 @@
 {
-	"author": [
-			"Alberto Simón"
-	],
-	"name": "angular-growl-v3",
-	"description": "growl like notifications for angularJS projects",
-	"version": "0.1.0",
-	"homepage": "http://asimon-option.github.io/angular-growl-3",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/asimon-option/angular-growl-3"
-	},
-	"license": "MIT",
-	"main": ["./build/angular-growl.js", "./build/angular-growl.css"],
-	"ignore": [
-		"src",
-		"test",
-		".jshintrc",
-		"package.json",
-		"gruntfile.js",
-		"karma.conf.js",
-		"demo",
-		".gitignore"
-	],
-	"dependencies": {
-		"angular": ">=1.2.1"
-	},
-	"devDependencies": {
-		"angular-mocks": ">=1.2.1"
-	}
+  "author": [
+    "Alberto Simón"
+  ],
+  "name": "angular-growl-v3",
+  "description": "growl like notifications for angularJS projects",
+  "version": "0.1.1",
+  "homepage": "http://asimon-option.github.io/angular-growl-3",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/asimon-option/angular-growl-3"
+  },
+  "license": "MIT",
+  "main": [
+    "./build/angular-growl.js",
+    "./build/angular-growl.css"
+  ],
+  "ignore": [
+    "src",
+    "test",
+    ".jshintrc",
+    "package.json",
+    "gruntfile.js",
+    "karma.conf.js",
+    "demo",
+    ".gitignore"
+  ],
+  "dependencies": {
+    "angular": ">=1.2.1",
+    "angular-growl-v3": "~0.1.0"
+  },
+  "devDependencies": {
+    "angular-mocks": ">=1.2.1"
+  }
 }

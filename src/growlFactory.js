@@ -86,7 +86,7 @@ angular.module("angular-growl").provider("growl", function() {
         ttl: _config.ttl || _ttl,
         variables: _config.variables || {},
         disableIcons: _config.disableIcons === undefined ? _disableIcons : _config.disableIcons,
-        button: _config.button === undefined ? _config.button : null,
+        button: _config.button !== undefined ? _config.button : null,
         position: _config.position || _position,
         referenceId: _config.referenceId || _referenceId
       };
