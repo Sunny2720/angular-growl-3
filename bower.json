@@ -4,7 +4,7 @@
   ],
   "name": "angular-growl-v3",
   "description": "growl like notifications for angularJS projects",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "homepage": "http://asimon-option.github.io/angular-growl-3",
   "repository": {
     "type": "git",
@@ -26,8 +26,7 @@
     ".gitignore"
   ],
   "dependencies": {
-    "angular": ">=1.2.1",
-    "angular-growl-v3": "~0.1.0"
+    "angular": ">=1.2.1"
   },
   "devDependencies": {
     "angular-mocks": ">=1.2.1"
